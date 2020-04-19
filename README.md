@@ -1,4 +1,2 @@
-# 목차
-
-## 
+# Initial page
 
