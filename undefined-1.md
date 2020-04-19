@@ -1,0 +1,20 @@
+# study
+
+## 객체지향
+
+Object Oriented Programming
+
+객체지향 프로그래밍은 현실 세계에서 모든 것이 객체로 이루어져 있다는 개념을 프로그래밍에 도입한 인간 중심적인 프로그래밍 패러다임이라고 볼 수 있다.
+
+현실 세계의 사물들을 객체로 보고 그 객체의 특징들\(속성, 행위\)를 뽑아와 추상화 한 것
+
+OOP로 작성된 코드는 재사용성이 좋다
+
+### 객체지향적 설계 원칙
+
+* SRP\(Single Responsibility Principle\) 단일 책임 원칙  클래스는 단 하나의 책임을 가져야 하며 클래스를 변경하는 이유는 단 하나의 이유이어야 한다.
+* OCP\(Open-Closed Principle\) 개방-폐쇄 원칙   확장에는 열려 있어야 하고 변경에는 닫혀 있어야 한다.
+* LSP\(Liskov Substitution Principle\) 리스코프 치환 원칙   상위 타입의 객체를 하위 타입의 객체로 치환해도 상위 타입을 사용하는 프로그램은 정상적으로 동작해야 한다.
+* ISP\(Interface Segregation Principle\) 인터페이스 분리 원칙   인터페이스는 그 인터페이스를 사용하는 클라이언트를 기준으로 분리해야 한다.
+* DIP\(Dependency Inversion Principle\) 의존 역전 원칙  고수준 모듈은 저수준 모듈의 구현에 의존해서는 안 된다.
+
