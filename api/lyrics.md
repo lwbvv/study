@@ -1,23 +1,21 @@
-# Initial page
+# lyrics
 
-markdown 언어로 작성을 하면 어떻게 되는 것일
-
-{% api-method method="get" host="https://asd.asdasd" path="" %}
+{% api-method method="get" host="https://api..com" path="/lyrics" %}
 {% api-method-summary %}
-api 메소
+Show Random lyrics
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+'도메인 주소는 아직 안 정해짐'
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-body-parameters %}
+{% api-method-parameter name="checked\_list" type="object" required=true %}
+'설문지에서 체크한 리스트들 Json으로 전달'
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -33,4 +31,6 @@ api 메소
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
